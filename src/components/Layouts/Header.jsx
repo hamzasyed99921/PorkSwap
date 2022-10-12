@@ -7,7 +7,7 @@ const Header = () => {
       <header className="header">
         <nav className="navbar  fixed-top navbar-expand-lg "  id="header">
           <div className="container " style={{padding: '10px'}}>
-            <Link className=" navbar-brand text-white col-8 " to="/">
+            <Link className=" navbar-brand text-white" to="/">
               <img
                 src="assets/images/logo.png"
                 alt=""
