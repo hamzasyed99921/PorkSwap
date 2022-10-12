@@ -13,17 +13,17 @@ const Roadmap = () => {
           </div>
           <hr />
           <div className="mt-5 mb-5 row">
-            <div className="col-md-8 col-12 mt-5 roadmap_img text-center">
+            <div className="col-md-8 col-12 mt-5 roadmap_img text-center" style={{padding: '0'}}>
               <img src="assets/images/gov.png" alt="" />
             </div>
-            <div className="col-md-4 col-12 mt-5">
+            <div className="col-md-4 col-12 mt-5" style={{padding: '0'}}>
               <div className="right_roadmap text-center">
                 <h3 className="mb-3">Governance Platform</h3>
                 <a href="#" className="shadow">
                   Lunched, Start Voting Now
                 </a>
               </div>
-              <div className="mt-4 lists">
+              <div className="mt-4 lists mx-4">
                 <p>You'll be able to vote for:</p>
                 <ul>
                   <li>Change in underlying protocol</li>

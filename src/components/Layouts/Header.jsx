@@ -5,9 +5,9 @@ const Header = () => {
   return (
     <>
       <header className="header">
-        <nav className="navbar  fixed-top navbar-expand-lg " id="header">
-          <div className="container ">
-            <Link className=" navbar-brand text-white " to="/">
+        <nav className="navbar  fixed-top navbar-expand-lg "  id="header">
+          <div className="container " style={{padding: '10px'}}>
+            <Link className=" navbar-brand text-white col-8 " to="/">
               <img
                 src="assets/images/logo.png"
                 alt=""
@@ -22,6 +22,7 @@ const Header = () => {
               aria-controls="navbarScroll"
               aria-expanded="false"
               aria-label="Toggle navigation"
+              
             >
               <span className="navbar-toggler-icon  " />
             </button>
