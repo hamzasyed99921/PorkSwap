@@ -16,14 +16,14 @@ const Hero = () => {
                 </p>
                 <a className='bg_warning'>Spot Trading Platform Launched</a>
                 <hr/>
-                <div className='bg_red w-100 d-flex justify-content-between mt-3 col-12'>
-                  <span><a className=' text-white'>Earn PSWAP</a></span>
-                <span><a className=' text-white'>Trade on PCS</a></span>
-                <span><a className=' text-white'>Governance</a></span> 
+                <div className='bg_red row '>
+                  <span className='col-md-4 text-center'><a className=' text-white'>Earn PSWAP</a></span>
+                <span className='col-md-4  text-center'><a className=' text-white'>Trade on PCS</a></span>
+                <span className='col-md-4  text-center'><a className=' text-white'>Governance</a></span> 
                 </div>
               </div>
             </div>
-            <div className="col-md-6 col-12">
+            <div className="col-md-6 col-12 mt-5">
               <div className='hero_img'>
                 <img src="assets/images/porkswap-pink.png" alt="" />
               </div>

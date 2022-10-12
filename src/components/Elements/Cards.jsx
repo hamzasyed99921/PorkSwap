@@ -6,7 +6,7 @@ const Cards = () => {
       <div className="cards">
         <div className="container">
           <div className="row">
-            <div className="col-md-4" style={{ padding: "0px 0px !important" }}>
+            <div className="col-md-4" style={{ padding: "0px" }}>
               <div className="card text-center" style={{ border: "none" }}>
                 <div>
                   <img
@@ -26,7 +26,7 @@ const Cards = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4" style={{ padding: "3px " }}>
               <div
                 className="card text-center shadow"
                 style={{ border: "none" }}
@@ -49,7 +49,7 @@ const Cards = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4" style={{ padding: "0px " }}>
               <div className="card text-center" style={{ border: "none" }}>
                 <div>
                   <img
@@ -71,7 +71,7 @@ const Cards = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-md-4">
+            <div className="col-md-4" style={{ padding: "3px" }}>
               <div className="card text-center shadow" style={{ border: "none" }}>
                 <div>
                   <img
@@ -90,7 +90,7 @@ const Cards = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4" style={{ padding: "0px" }}>
               <div
                 className="card text-center "
                 style={{ border: "none" }}
@@ -111,7 +111,7 @@ const Cards = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4" style={{ padding: "3px" }}>
               <div className="card text-center shadow" style={{ border: "none" }}>
                 <div>
                   <img

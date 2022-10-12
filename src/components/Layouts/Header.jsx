@@ -11,7 +11,7 @@ const Header = () => {
               <img
                 src="assets/images/logo.png"
                 alt=""
-                style={{ marginLeft: "6%" }}
+                
               />
             </Link>
             <button

@@ -26,8 +26,8 @@ const Table = () => {
             <div className='table_img text-center'><img src="assets/images/logo.png" alt="" /></div>
             </div>
           </div>
-          <div className="body_table ">
-            <table className="table">
+          <div className="body_table  ">
+            <table className="table ">
               <tbody className='t_data'>
                 <tr className='text-start px-5  bg-white'>
                   <td className='thead'>Automated Market Maker</td>

@@ -60,8 +60,7 @@ const Utilities = () => {
                   <h5 className="card-title">Deflation</h5>
                   <p className="card-text">
                     With a fixed supply of 1 million tokens, and only 200,000 in
-                    circulation, $PSWAP token will increase in value overtime
-                    since it'll be scarce and the team will buy back
+                    circulation, $PSWAP token will increase in value overtime since it'll be scarce and the team will buy back
                   </p>
                 </div>
               </div>
