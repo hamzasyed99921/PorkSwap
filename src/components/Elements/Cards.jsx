@@ -7,7 +7,7 @@ const Cards = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-4" style={{ padding: "0px" }}>
-              <div className="card text-center" style={{ border: "none" }}>
+              <div className="card text-center py-5" style={{ border: "none" }}>
                 <div>
                   <img
                     src="assets/images/f1.svg"
@@ -28,7 +28,7 @@ const Cards = () => {
             </div>
             <div className="col-md-4" style={{ padding: "3px " }}>
               <div
-                className="card text-center shadow"
+                className="card text-center shadow py-5"
                 style={{ border: "none" }}
               >
                 <div>
@@ -50,7 +50,7 @@ const Cards = () => {
               </div>
             </div>
             <div className="col-md-4" style={{ padding: "0px " }}>
-              <div className="card text-center" style={{ border: "none" }}>
+              <div className="card text-center py-5" style={{ border: "none" }}>
                 <div>
                   <img
                     src="assets/images/f3.svg"
@@ -72,7 +72,7 @@ const Cards = () => {
           </div>
           <div className="row">
             <div className="col-md-4" style={{ padding: "3px" }}>
-              <div className="card text-center shadow" style={{ border: "none" }}>
+              <div className="card text-center shadow py-5" style={{ border: "none" }}>
                 <div>
                   <img
                     src="assets/images/f4.svg"
@@ -92,7 +92,7 @@ const Cards = () => {
             </div>
             <div className="col-md-4" style={{ padding: "0px" }}>
               <div
-                className="card text-center "
+                className="card text-center py-5"
                 style={{ border: "none" }}
               >
                 <div>
@@ -112,7 +112,7 @@ const Cards = () => {
               </div>
             </div>
             <div className="col-md-4" style={{ padding: "3px" }}>
-              <div className="card text-center shadow" style={{ border: "none" }}>
+              <div className="card text-center shadow py-5" style={{ border: "none" }}>
                 <div>
                   <img
                     src="assets/images/f6.svg"

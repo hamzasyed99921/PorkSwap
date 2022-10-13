@@ -6,7 +6,7 @@ const Header = () => {
     <>
       <header className="header">
         <nav className="navbar  fixed-top navbar-expand-lg "  id="header">
-          <div className="container " style={{padding: '10px'}}>
+          <div className="container" style={{padding: '10px'}}>
             <Link className=" navbar-brand text-white" to="/">
               <img
                 src="assets/images/logo.png"
@@ -15,7 +15,7 @@ const Header = () => {
               />
             </Link>
             <button
-              className="navbar-toggler"
+              className="navbar-toggler "
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarScroll"
@@ -27,7 +27,7 @@ const Header = () => {
               <span className="navbar-toggler-icon  " />
             </button>
             <div
-              className="collapse navbar-collapse text-center  "
+              className="collapse navbar-collapse text-center   "
               id="navbarScroll"
             >
               <ul className="navbar-nav d-flex justify-content-end  my-lg-0 navbar-nav-scroll  ">

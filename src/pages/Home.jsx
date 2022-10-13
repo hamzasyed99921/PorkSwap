@@ -4,6 +4,7 @@ import Hero from '../components/Elements/Hero'
 import Interface from '../components/Elements/Interface'
 import Roadmap from '../components/Elements/Roadmap'
 import Table from '../components/Elements/Table'
+import Token from '../components/Elements/Token'
 import Utilities from '../components/Elements/Utilities'
 import Work from '../components/Elements/Work'
 import Faqs from '../components/Utils/Faqs'
@@ -14,6 +15,7 @@ const Home = () => {
       <Hero/>
       <Cards/>
       <Work/>
+      <Token/>
       <Interface/>
       <Utilities/>
       <Table/>

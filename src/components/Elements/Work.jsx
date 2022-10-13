@@ -3,7 +3,7 @@ import React from "react";
 const Work = () => {
   return (
     <>
-      <div className="work_bg">
+      <div className="work_bg mt-5">
         <div className="container work_body">
           <h3 className="text-center work_txt mb-5">
             How It <span>Works</span>

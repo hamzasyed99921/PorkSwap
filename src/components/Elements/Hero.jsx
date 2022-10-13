@@ -1,9 +1,15 @@
 import React from "react";
+import Particals from "./Particals";
+
 
 const Hero = () => {
+  
   return (
     <>
-      <div className="bg_img">
+      <div className="bg_img position-relative" style={{zIndex: '1'}}>
+        <div className="position-absolute " >
+          <Particals/>
+        </div>
         <div className="container">
           <div className="row mt-5">
             <div className="col-md-6 col-12 ">
