@@ -4,7 +4,7 @@ const Token = () => {
   return (
     <>
       <div className="token_bg">
-        <div className="container " style={{padding: '50px 0 0 0'}}>
+        <div className="container token_head " style={{padding: '50px 0 0 0'}}>
           <h2 className="text-center mb-5">
             Token <span>Distribution</span>
           </h2>
