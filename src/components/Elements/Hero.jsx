@@ -6,8 +6,8 @@ const Hero = () => {
   
   return (
     <>
-      <div className="bg_img position-relative" style={{zIndex: '1'}}>
-        <div className="position-absolute " >
+      <div className="bg_img " style={{zIndex: '1',position: 'relative'}}>
+        <div className=" ">
           <Particals/>
         </div>
         <div className="container">

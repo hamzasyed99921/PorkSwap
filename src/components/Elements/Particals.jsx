@@ -13,18 +13,23 @@ const Particals = () => {
       };
   return (
     <>
-        <Particles
+        <Particles 
       id="tsparticles"
       init={particlesInit}
-
       options={{
         "fullScreen": {
             "enable": true,
-            "zIndex": 1
+            "zIndex": -1
         },
+        "style": {
+            "position": "absolute",
+            "height" : "100%",
+            "top": "0",
+            "left":"0"
+          },
         "particles": {
             "number": {
-                "value": 10,
+                "value": 30,
                 "density": {
                     "enable": false,
                     "value_area": 800
@@ -40,12 +45,12 @@ const Particals = () => {
                 }
             },
             "opacity": {
-                "value": 0.8,
+                "value": 1,
                 "random": false,
                 "anim": {
                     "enable": false,
                     "speed": 1,
-                    "opacity_min": 0.1,
+                    "opacity_min": 1,
                     "sync": false
                 }
             },
@@ -73,7 +78,7 @@ const Particals = () => {
                 "enable": true,
                 "distance": 600,
                 "color": "#ffffff",
-                "opacity": 0.2,
+                "opacity": 0.4,
                 "width": 2
             },
             "move": {
@@ -133,7 +138,7 @@ const Particals = () => {
             "image": "",
             "position": "50% 50%",
             "repeat": "no-repeat",
-            "size": "contain"
+            "size": "cover"
         }
     }}
     />
