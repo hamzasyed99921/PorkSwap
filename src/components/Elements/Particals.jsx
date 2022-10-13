@@ -29,7 +29,7 @@ const Particals = () => {
           },
         "particles": {
             "number": {
-                "value": 30,
+                "value": 20,
                 "density": {
                     "enable": false,
                     "value_area": 800
