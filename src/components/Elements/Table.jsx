@@ -26,7 +26,7 @@ const Table = () => {
             <div className='table_img text-center'><img src="assets/images/logo.png" alt="" /></div>
             </div>
           </div>
-          <div className="body_table  ">
+          <div className="body_table table-responsive ">
             <table className="table ">
               <tbody className='t_data'>
                 <tr className='text-start px-5  bg-white'>

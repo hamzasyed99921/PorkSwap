@@ -99,14 +99,16 @@
     color: #212529;
     border-radius: 5px;
   }
+  
   .bg_red a {
     cursor: pointer;
     text-decoration: none;
-    // width: 70px;
+    max-width: 70px;
     padding: 10px 10px;
     background-color: #dc3545;
+    color: white;
     border-radius: 6px;
-    font-size: 16px;
+    font-size: 0.9rem;
     font-weight: 600;
   }
   .hero_img {
@@ -308,7 +310,7 @@
 
   .card {
     padding: 20px 20px 48px;
-    height: 50vh;
+    height: 20rem;
     .card_img img {
       width: 25%;
     }
